@@ -5,9 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@metamask/detect-provider':
+    specifier: ^2.0.0
+    version: 2.0.0
   '@splinetool/react-spline':
     specifier: ^2.2.6
     version: 2.2.6(@splinetool/runtime@1.0.65)(react-dom@18.2.0)(react@18.2.0)
+  '@splinetool/runtime':
+    specifier: ^1.0.65
+    version: 1.0.65
   '@tabler/icons-react':
     specifier: ^3.0.1
     version: 3.0.1(react@18.2.0)
